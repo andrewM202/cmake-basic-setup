@@ -419,36 +419,38 @@ CMakeFiles/Neuron.dir/src/Neuron.cpp.o: ../src/Neuron.cpp \
 
 CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   ../include/headers/Neuron.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
+  ../include/glm/glm/glm.hpp \
+  ../include/glm/glm/detail/_fixes.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__config_site \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/pthread.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ios \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__debug \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mbstate_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stddef.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stddef.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__nullptr \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wchar.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_symbol_aliasing.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_posix_availability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityInternal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_null.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/wait.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_pid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_id_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/mach/i386/_structs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int8_t.h \
@@ -461,9 +463,218 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int64_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_intptr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uintptr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigaltstack.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_size_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdint.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint8_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint16_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint32_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uintmax_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/libkern/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/alloca.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wchar_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_null.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/malloc/_malloc.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__nullptr \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits \
+  ../include/glm/glm/detail/setup.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/assert.h \
+  ../include/glm/glm/simd/platform.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/syslimits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cfloat \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/float.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/float.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/float.h \
+  ../include/glm/glm/fwd.hpp \
+  ../include/glm/glm/detail/qualifier.hpp \
+  ../include/glm/glm/vec2.hpp \
+  ../include/glm/glm/ext/vector_bool2.hpp \
+  ../include/glm/glm/detail/type_vec2.hpp \
+  ../include/glm/glm/detail/type_vec2.inl \
+  ../include/glm/glm/detail/compute_vector_relational.hpp \
+  ../include/glm/glm/ext/vector_bool2_precision.hpp \
+  ../include/glm/glm/ext/vector_float2.hpp \
+  ../include/glm/glm/ext/vector_float2_precision.hpp \
+  ../include/glm/glm/ext/vector_double2.hpp \
+  ../include/glm/glm/ext/vector_double2_precision.hpp \
+  ../include/glm/glm/ext/vector_int2.hpp \
+  ../include/glm/glm/ext/vector_int2_sized.hpp \
+  ../include/glm/glm/ext/vector_int2.hpp \
+  ../include/glm/glm/ext/scalar_int_sized.hpp \
+  ../include/glm/glm/detail/setup.hpp \
+  ../include/glm/glm/ext/vector_uint2.hpp \
+  ../include/glm/glm/ext/vector_uint2_sized.hpp \
+  ../include/glm/glm/ext/vector_uint2.hpp \
+  ../include/glm/glm/ext/scalar_uint_sized.hpp \
+  ../include/glm/glm/vec3.hpp \
+  ../include/glm/glm/ext/vector_bool3.hpp \
+  ../include/glm/glm/detail/type_vec3.hpp \
+  ../include/glm/glm/detail/type_vec3.inl \
+  ../include/glm/glm/detail/compute_vector_relational.hpp \
+  ../include/glm/glm/ext/vector_bool3_precision.hpp \
+  ../include/glm/glm/ext/vector_float3.hpp \
+  ../include/glm/glm/ext/vector_float3_precision.hpp \
+  ../include/glm/glm/ext/vector_double3.hpp \
+  ../include/glm/glm/ext/vector_double3_precision.hpp \
+  ../include/glm/glm/ext/vector_int3.hpp \
+  ../include/glm/glm/ext/vector_int3_sized.hpp \
+  ../include/glm/glm/ext/vector_int3.hpp \
+  ../include/glm/glm/ext/vector_uint3.hpp \
+  ../include/glm/glm/ext/vector_uint3_sized.hpp \
+  ../include/glm/glm/ext/vector_uint3.hpp \
+  ../include/glm/glm/vec4.hpp \
+  ../include/glm/glm/ext/vector_bool4.hpp \
+  ../include/glm/glm/detail/type_vec4.hpp \
+  ../include/glm/glm/detail/type_vec4.inl \
+  ../include/glm/glm/ext/vector_bool4_precision.hpp \
+  ../include/glm/glm/ext/vector_float4.hpp \
+  ../include/glm/glm/ext/vector_float4_precision.hpp \
+  ../include/glm/glm/ext/vector_double4.hpp \
+  ../include/glm/glm/ext/vector_double4_precision.hpp \
+  ../include/glm/glm/ext/vector_int4.hpp \
+  ../include/glm/glm/ext/vector_int4_sized.hpp \
+  ../include/glm/glm/ext/vector_int4.hpp \
+  ../include/glm/glm/ext/vector_uint4.hpp \
+  ../include/glm/glm/ext/vector_uint4_sized.hpp \
+  ../include/glm/glm/ext/vector_uint4.hpp \
+  ../include/glm/glm/mat2x2.hpp \
+  ../include/glm/glm/ext/matrix_double2x2.hpp \
+  ../include/glm/glm/detail/type_mat2x2.hpp \
+  ../include/glm/glm/detail/type_vec2.hpp \
+  ../include/glm/glm/detail/type_mat2x2.inl \
+  ../include/glm/glm/matrix.hpp \
+  ../include/glm/glm/mat2x3.hpp \
+  ../include/glm/glm/ext/matrix_double2x3.hpp \
+  ../include/glm/glm/detail/type_mat2x3.hpp \
+  ../include/glm/glm/detail/type_vec3.hpp \
+  ../include/glm/glm/detail/type_mat2x3.inl \
+  ../include/glm/glm/ext/matrix_double2x3_precision.hpp \
+  ../include/glm/glm/ext/matrix_float2x3.hpp \
+  ../include/glm/glm/ext/matrix_float2x3_precision.hpp \
+  ../include/glm/glm/mat2x4.hpp \
+  ../include/glm/glm/ext/matrix_double2x4.hpp \
+  ../include/glm/glm/detail/type_mat2x4.hpp \
+  ../include/glm/glm/detail/type_vec4.hpp \
+  ../include/glm/glm/detail/type_mat2x4.inl \
+  ../include/glm/glm/ext/matrix_double2x4_precision.hpp \
+  ../include/glm/glm/ext/matrix_float2x4.hpp \
+  ../include/glm/glm/ext/matrix_float2x4_precision.hpp \
+  ../include/glm/glm/mat3x2.hpp \
+  ../include/glm/glm/ext/matrix_double3x2.hpp \
+  ../include/glm/glm/detail/type_mat3x2.hpp \
+  ../include/glm/glm/detail/type_mat3x2.inl \
+  ../include/glm/glm/ext/matrix_double3x2_precision.hpp \
+  ../include/glm/glm/ext/matrix_float3x2.hpp \
+  ../include/glm/glm/ext/matrix_float3x2_precision.hpp \
+  ../include/glm/glm/mat3x3.hpp \
+  ../include/glm/glm/ext/matrix_double3x3.hpp \
+  ../include/glm/glm/detail/type_mat3x3.hpp \
+  ../include/glm/glm/detail/type_mat3x3.inl \
+  ../include/glm/glm/ext/matrix_double3x3_precision.hpp \
+  ../include/glm/glm/ext/matrix_float3x3.hpp \
+  ../include/glm/glm/ext/matrix_float3x3_precision.hpp \
+  ../include/glm/glm/mat3x4.hpp \
+  ../include/glm/glm/ext/matrix_double3x4.hpp \
+  ../include/glm/glm/detail/type_mat3x4.hpp \
+  ../include/glm/glm/detail/type_mat3x4.inl \
+  ../include/glm/glm/ext/matrix_double3x4_precision.hpp \
+  ../include/glm/glm/ext/matrix_float3x4.hpp \
+  ../include/glm/glm/ext/matrix_float3x4_precision.hpp \
+  ../include/glm/glm/mat4x2.hpp \
+  ../include/glm/glm/ext/matrix_double4x2.hpp \
+  ../include/glm/glm/detail/type_mat4x2.hpp \
+  ../include/glm/glm/detail/type_mat4x2.inl \
+  ../include/glm/glm/ext/matrix_double4x2_precision.hpp \
+  ../include/glm/glm/ext/matrix_float4x2.hpp \
+  ../include/glm/glm/ext/matrix_float4x2_precision.hpp \
+  ../include/glm/glm/mat4x3.hpp \
+  ../include/glm/glm/ext/matrix_double4x3.hpp \
+  ../include/glm/glm/detail/type_mat4x3.hpp \
+  ../include/glm/glm/detail/type_mat4x3.inl \
+  ../include/glm/glm/ext/matrix_double4x3_precision.hpp \
+  ../include/glm/glm/ext/matrix_float4x3.hpp \
+  ../include/glm/glm/ext/matrix_float4x3_precision.hpp \
+  ../include/glm/glm/mat4x4.hpp \
+  ../include/glm/glm/ext/matrix_double4x4.hpp \
+  ../include/glm/glm/detail/type_mat4x4.hpp \
+  ../include/glm/glm/detail/type_mat4x4.inl \
+  ../include/glm/glm/ext/matrix_double4x4_precision.hpp \
+  ../include/glm/glm/ext/matrix_float4x4.hpp \
+  ../include/glm/glm/ext/matrix_float4x4_precision.hpp \
+  ../include/glm/glm/detail/func_matrix.inl \
+  ../include/glm/glm/geometric.hpp \
+  ../include/glm/glm/detail/func_geometric.inl \
+  ../include/glm/glm/exponential.hpp \
+  ../include/glm/glm/detail/type_vec1.hpp \
+  ../include/glm/glm/detail/type_vec1.inl \
+  ../include/glm/glm/detail/func_exponential.inl \
+  ../include/glm/glm/vector_relational.hpp \
+  ../include/glm/glm/detail/func_vector_relational.inl \
+  ../include/glm/glm/detail/_vectorize.hpp \
+  ../include/glm/glm/common.hpp \
+  ../include/glm/glm/detail/func_common.inl \
+  ../include/glm/glm/detail/compute_common.hpp \
+  ../include/glm/glm/ext/matrix_double2x2_precision.hpp \
+  ../include/glm/glm/ext/matrix_float2x2.hpp \
+  ../include/glm/glm/ext/matrix_float2x2_precision.hpp \
+  ../include/glm/glm/trigonometric.hpp \
+  ../include/glm/glm/detail/func_trigonometric.inl \
+  ../include/glm/glm/exponential.hpp \
+  ../include/glm/glm/common.hpp \
+  ../include/glm/glm/packing.hpp \
+  ../include/glm/glm/detail/func_packing.inl \
+  ../include/glm/glm/detail/type_half.hpp \
+  ../include/glm/glm/detail/type_half.inl \
+  ../include/glm/glm/geometric.hpp \
+  ../include/glm/glm/matrix.hpp \
+  ../include/glm/glm/vector_relational.hpp \
+  ../include/glm/glm/integer.hpp \
+  ../include/glm/glm/detail/func_integer.inl \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iostream \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ios \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__availability \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__debug \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iosfwd \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__mbstate_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stddef.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wchar.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stdarg.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdio.h \
@@ -485,17 +696,11 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/runetype.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/version \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional_base \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/invoke.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_function.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/forward.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/operations.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/reference_wrapper.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/addressof.h \
@@ -503,44 +708,6 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/exception \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdlib \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdlib.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/wait.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_pid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_id_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/mach/machine/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/mach/i386/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigaltstack.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_uid_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/resource.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdint.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdint.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint8_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint16_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint32_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint64_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uintmax_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_timeval.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/alloca.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/malloc/_malloc.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_dev_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mode_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/new \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/typeinfo \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdint \
@@ -548,7 +715,6 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/as_const.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/cmp.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/declval.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/exchange.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/in_place.h \
@@ -602,14 +768,6 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/chrono \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ctime \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ratio \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/climits \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__threading_support \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/errno.h \
@@ -668,8 +826,6 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/size.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/temporary_buffer.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cassert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/identity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/mem_fn.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h \
@@ -834,7 +990,181 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
 
 
+../include/glm/glm/detail/func_integer.inl:
+
+../include/glm/glm/detail/type_half.hpp:
+
+../include/glm/glm/packing.hpp:
+
+../include/glm/glm/trigonometric.hpp:
+
+../include/glm/glm/ext/matrix_float2x2_precision.hpp:
+
+../include/glm/glm/ext/matrix_float2x2.hpp:
+
+../include/glm/glm/ext/matrix_double2x2_precision.hpp:
+
+../include/glm/glm/detail/func_exponential.inl:
+
+../include/glm/glm/detail/type_vec1.inl:
+
+../include/glm/glm/detail/func_geometric.inl:
+
+../include/glm/glm/ext/matrix_float4x4_precision.hpp:
+
+../include/glm/glm/ext/matrix_float4x4.hpp:
+
+../include/glm/glm/ext/matrix_double4x4_precision.hpp:
+
+../include/glm/glm/detail/type_mat4x4.hpp:
+
+../include/glm/glm/mat4x4.hpp:
+
+../include/glm/glm/ext/matrix_float4x3.hpp:
+
+../include/glm/glm/ext/matrix_double4x3.hpp:
+
+../include/glm/glm/mat4x3.hpp:
+
+../include/glm/glm/detail/type_mat4x2.inl:
+
+../include/glm/glm/mat4x2.hpp:
+
+../include/glm/glm/ext/matrix_float3x4_precision.hpp:
+
+../include/glm/glm/ext/matrix_double3x4_precision.hpp:
+
+../include/glm/glm/detail/type_mat3x4.inl:
+
+../include/glm/glm/detail/type_mat3x4.hpp:
+
+../include/glm/glm/ext/matrix_double3x4.hpp:
+
+../include/glm/glm/ext/matrix_float3x3_precision.hpp:
+
+../include/glm/glm/ext/matrix_double4x2_precision.hpp:
+
+../include/glm/glm/ext/matrix_double3x3_precision.hpp:
+
+../include/glm/glm/detail/type_mat3x3.inl:
+
+../include/glm/glm/detail/type_mat3x3.hpp:
+
+../include/glm/glm/detail/func_matrix.inl:
+
+../include/glm/glm/ext/matrix_double3x3.hpp:
+
+../include/glm/glm/ext/matrix_float3x2.hpp:
+
+../include/glm/glm/ext/matrix_double3x2_precision.hpp:
+
+../include/glm/glm/detail/type_mat3x2.hpp:
+
+../include/glm/glm/ext/matrix_double3x2.hpp:
+
+../include/glm/glm/detail/type_mat2x4.hpp:
+
+../include/glm/glm/ext/matrix_double2x4.hpp:
+
+../include/glm/glm/mat2x4.hpp:
+
+../include/glm/glm/ext/matrix_float2x3_precision.hpp:
+
+../include/glm/glm/ext/matrix_float2x3.hpp:
+
+../include/glm/glm/detail/type_mat2x3.inl:
+
+../include/glm/glm/matrix.hpp:
+
+../include/glm/glm/detail/type_mat2x2.inl:
+
+../include/glm/glm/detail/type_mat2x2.hpp:
+
+../include/glm/glm/ext/vector_uint4_sized.hpp:
+
+../include/glm/glm/ext/vector_float4_precision.hpp:
+
+../include/glm/glm/ext/vector_float4.hpp:
+
+../include/glm/glm/detail/type_vec4.inl:
+
+../include/glm/glm/detail/type_vec4.hpp:
+
+../include/glm/glm/ext/vector_bool4.hpp:
+
+../include/glm/glm/vec4.hpp:
+
+../include/glm/glm/ext/vector_int3_sized.hpp:
+
+../include/glm/glm/ext/vector_int3.hpp:
+
+../include/glm/glm/ext/vector_double3_precision.hpp:
+
+../include/glm/glm/ext/vector_bool3_precision.hpp:
+
+../include/glm/glm/detail/type_vec3.inl:
+
+../include/glm/glm/detail/type_vec3.hpp:
+
+../include/glm/glm/ext/matrix_double2x3_precision.hpp:
+
+../include/glm/glm/ext/vector_bool3.hpp:
+
+../include/glm/glm/ext/scalar_uint_sized.hpp:
+
+../include/glm/glm/ext/vector_double3.hpp:
+
+../include/glm/glm/ext/vector_uint2_sized.hpp:
+
+../include/glm/glm/ext/scalar_int_sized.hpp:
+
+../include/glm/glm/ext/vector_int2_sized.hpp:
+
+../include/glm/glm/ext/vector_double2_precision.hpp:
+
+../include/glm/glm/ext/vector_double2.hpp:
+
+../include/glm/glm/ext/vector_float2_precision.hpp:
+
+../include/glm/glm/ext/vector_float2.hpp:
+
+../include/glm/glm/ext/vector_float3.hpp:
+
+../include/glm/glm/ext/vector_bool2_precision.hpp:
+
+../include/glm/glm/detail/compute_vector_relational.hpp:
+
+../include/glm/glm/ext/matrix_double2x2.hpp:
+
+../include/glm/glm/detail/type_vec2.inl:
+
+../include/glm/glm/ext/vector_bool2.hpp:
+
+../include/glm/glm/vec2.hpp:
+
+../include/glm/glm/ext/vector_uint3.hpp:
+
+../include/glm/glm/detail/qualifier.hpp:
+
+../include/glm/glm/fwd.hpp:
+
+/Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/float.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/float.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cfloat:
+
+../include/glm/glm/simd/platform.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/math.h:
+
+../include/glm/glm/detail/_fixes.hpp:
+
+../include/glm/glm/glm.hpp:
+
 ../src/main.cpp:
+
+../include/glm/glm/ext/vector_uint2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h:
 
@@ -846,6 +1176,10 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_isset.h:
 
+../include/glm/glm/mat3x4.hpp:
+
+../include/glm/glm/ext/matrix_float3x2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_zero.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fd_set.h:
@@ -855,6 +1189,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_nlink_t.h:
+
+../include/glm/glm/detail/type_mat4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_key_t.h:
 
@@ -866,9 +1202,13 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_char.h:
 
+../include/glm/glm/detail/type_mat4x3.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/nl_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/streambuf:
+
+../include/glm/glm/detail/type_mat2x4.inl:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/stddef.h:
 
@@ -881,6 +1221,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ostream:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/__wctype.h:
+
+../include/glm/glm/ext/matrix_double2x4_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h:
 
@@ -911,6 +1253,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__string:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique.h:
+
+../include/glm/glm/ext/vector_int4_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_wctype.h:
 
@@ -1010,6 +1354,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/generate.h:
 
+../include/glm/glm/ext/matrix_float4x2_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_copy_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/generate_n.h:
@@ -1044,9 +1390,15 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cwchar:
 
+../include/glm/glm/ext/matrix_double4x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/count_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_string.h:
+
+../include/glm/glm/mat2x3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cmath:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/count.h:
 
@@ -1114,11 +1466,17 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/iter_swap.h:
 
+../include/glm/glm/mat2x2.hpp:
+
+../include/glm/glm/ext/vector_double4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/common_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_clock_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__function_like.h:
+
+../include/glm/glm/detail/func_trigonometric.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iterator:
 
@@ -1132,7 +1490,11 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sched.h:
 
+../include/glm/glm/detail/func_common.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mach_port_t.h:
+
+../include/glm/glm/ext/matrix_double4x2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_time_t.h:
 
@@ -1166,6 +1528,10 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/errno.h:
 
+../include/glm/glm/detail/compute_common.hpp:
+
+../include/glm/glm/mat3x2.hpp:
+
 ../src/Neuron.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/__wctype.h:
@@ -1175,6 +1541,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cerrno:
+
+../include/glm/glm/ext/matrix_float3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/tuple:
 
@@ -1218,6 +1586,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_traits.h:
 
+../include/glm/glm/ext/vector_float3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/time.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/temporary_buffer.h:
@@ -1258,11 +1628,15 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/string.h:
 
+../include/glm/glm/exponential.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/unique_copy.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/incrementable_traits.h:
+
+../include/glm/glm/ext/matrix_float3x4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/counted_iterator.h:
 
@@ -1282,6 +1656,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
+../include/glm/glm/detail/func_vector_relational.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/rel_ops.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
@@ -1293,6 +1669,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_ucontext.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/exchange.h:
+
+../include/glm/glm/ext/matrix_double4x3_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/xlocale/_stdio.h:
 
@@ -1306,9 +1684,15 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityVersions.h:
 
+../include/glm/glm/ext/matrix_float2x4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/climits:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstdint:
+
+../include/glm/glm/detail/type_vec1.hpp:
+
+../include/glm/glm/detail/type_mat4x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_locale.h:
 
@@ -1324,6 +1708,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/wchar.h:
 
+../include/glm/glm/detail/setup.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/atomic:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int64_t.h:
@@ -1338,9 +1724,13 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/machine/endian.h:
 
+../include/glm/glm/detail/type_half.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/unary_negate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_intmax_t.h:
+
+../include/glm/glm/detail/_vectorize.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_xlocale.h:
 
@@ -1348,7 +1738,11 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint64_t.h:
 
+../include/glm/glm/ext/matrix_float2x4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstring:
+
+../include/glm/glm/ext/vector_uint4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
@@ -1360,9 +1754,15 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uint8_t.h:
 
+../include/glm/glm/ext/vector_double4.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/shuffle.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
+
+../include/glm/glm/ext/matrix_float4x2.hpp:
+
+../include/glm/glm/detail/type_vec2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/wctype.h:
 
@@ -1381,6 +1781,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/next_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_sigset_t.h:
+
+../include/glm/glm/mat3x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/prev.h:
 
@@ -1420,6 +1822,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/partition.h:
 
+../include/glm/glm/common.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/appleapiopts.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_pid_t.h:
@@ -1440,6 +1844,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/move.h:
 
+../include/glm/glm/vector_relational.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/cstddef:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/nth_element.h:
@@ -1452,6 +1858,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
 
+../include/glm/glm/vec3.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/exception:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/weak_result_type.h:
@@ -1459,6 +1867,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int8_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__utility/declval.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/type_traits:
 
@@ -1490,9 +1900,13 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
 
+../include/glm/glm/integer.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_mbstate_t.h:
+
+../include/glm/glm/detail/func_packing.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/ctype.h:
 
@@ -1503,6 +1917,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_wint_t.h:
+
+../include/glm/glm/ext/vector_uint3_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
@@ -1516,6 +1932,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_int16_t.h:
 
+../include/glm/glm/geometric.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__undef_macros:
@@ -1527,6 +1945,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int.h:
+
+../include/glm/glm/ext/matrix_double2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int16_t.h:
 
@@ -1540,6 +1960,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/stdlib.h:
 
+../include/glm/glm/ext/vector_bool4_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/stdint.h:
@@ -1548,9 +1970,13 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/math.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
+
+../include/glm/glm/ext/vector_int4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_types/_uintmax_t.h:
 
@@ -1572,11 +1998,15 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/ratio:
 
+../include/glm/glm/detail/type_mat3x2.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_u_int32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/i386/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__locale:
+
+../include/glm/glm/detail/type_mat4x4.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/remove_copy.h:
 
@@ -1601,6 +2031,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/fill.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/limits.h:
+
+../include/glm/glm/ext/vector_int2.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/allocation_guard.h:
 
@@ -1634,6 +2066,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_gid_t.h:
 
+../include/glm/glm/ext/matrix_float4x3_precision.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/construct_at.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/replace_if.h:
@@ -1647,6 +2081,8 @@ CMakeFiles/Neuron.dir/src/main.cpp.o: ../src/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__functional/bind.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/13.1.6/include/limits.h:
+
+../include/glm/glm/detail/type_mat2x3.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__iterator/iter_swap.h:
 

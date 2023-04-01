@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/andrewmatt/Desktop/cpp_neuron/include/headers
+CXX_INCLUDES = -I/Users/andrewmatt/Desktop/cpp_neuron/include/headers -I/Users/andrewmatt/Desktop/cpp_neuron/include/glm
 
 CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
 
